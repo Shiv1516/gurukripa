@@ -9,37 +9,100 @@
             content="width=device-width, initial-s&#x2192 le=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Source+Sans+3:wght@200;300;400;500&display=swap"
+        <link
+            href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Source+Sans+3:wght@200;300;400;500&display=swap"
             rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
             <nav>
-                <div class="wrapper v-center jcsb">
-                    <div>
-                        <img src="image/logo.png" alt>
+                <div class="bg7 fc1">
+                    <div class="top-nav wrapper v-center jcsb">
+                        <div class="v-center jscb cp ptb16">
+                            <p class="v-center mlr12 fw5 fc16 fc-h1"><span
+                                    class="mr8"><img src="image/svg/phone.svg"
+                                        alt></span>+91 9004996868</p>
+                            <p class="v-center mlr12 fw5 fc16 fc-h1"><span
+                                    class="mr8"><img src="image/svg/message.svg"
+                                        alt></span>contactus@dtss.in</p>
+                        </div>
+                        <div class="v-center cp">
+                            <div class="footer-social"><a href="#"><img
+                                        src="image/svg/facebook.png" alt></a>
+                            </div>
+                            <div class="footer-social"><a href="#"><img
+                                        src="image/svg/twitter.png"
+                                        alt></a></div>
+                            <div class="footer-social"><a href="#"><img
+                                        src="image/svg/google.png"
+                                        alt></a></div>
+                            <div class="footer-social"><a href="#"><img
+                                        src="image/svg/linkedin.png"
+                                        alt></a></div>
+                        </div>
                     </div>
-                    <ul class="nav-list v-center cp">
-                        <li
-                            class="nav-item plr24 ptb40 fw3 fs20 fc3 nav-active"><a
-                                href="index.html">Home</a></li>
-                        <li class="nav-item plr24 ptb40 fw3 fs20 fc3 "><a
-                                href="about-us.html">About Us</a></li>
-                        <li class="nav-item plr24 ptb40 fw3 fs20 fc3 "><a
-                                href="facility-management.html">Facility Management</a></li>
-                        <li class="nav-item plr24 ptb40 fw3 fs20 fc3 "><a
-                                href="manpower.html">Manpower</a></li>
-                        <li class="nav-item plr24 ptb40 fw3 fs20 fc3 "><a
-                                href="clients.html">Clients</a></li>
-                        <li class="nav-item plr24 ptb40 fw3 fs20 fc3 "><a
-                                href="contact-us.html">Contact Us</a></li>
-                    </ul>
+                </div>
+                <div class="bottom-navbar wrapper v-center jcsb">
+                        <a href="index.html"><img src="image/logo.png" alt></a>
+                        <div class="menu-btn w48 h48 cp box-center fdc ml32 p8">
+                            <span class="menu-line"></span>
+                            <span class="menu-line"></span>
+                            <span class="menu-line"></span>
+                        </div>
+                    <div class="navbar v-center fww">
+                        <ul class="nav-list v-center cp fww">
+                            <li class="nav-item fw5 fs16 p16 fc3 "><a
+                                    href="about-us.html">About Us</a></li>
+                            <li class="nav-item fw5 fs16 p16 fc3 pr"><a
+                                    href="#">Our Services</a>
+                                <ul class="nav-list-dd pa">
+                                    <li
+                                        class="nav-item-dd fw5 fs16 ptb16 pr32 fc1 bg7 "><a
+                                            href="facility-management.html">Facility-Management</a></li>
+                                    <li
+                                        class="nav-item-dd fw5 fs16 p16 fc1 bg7"><a
+                                            href="manpower.html">Manpower</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item fw5 fs16 p16 fc3 "><a
+                                    href="clients.html">Clientele</a></li>
+                            <li class="nav-item fw5 fs16 p16 fc3 "><a
+                                    href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                        <button
+                            class="popup-btn fw5 fs16 plr24 h48 fc1 cp bg3 m16">Get
+                            in Touch</button>
+                    </div>
                 </div>
             </nav>
         </header>
-        <div class="heroo mt4"><img src="image/GKSHH2-banner.png" alt
-                class="banner-img w100"></div>
+        <div class="hero swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide banner1">
+                    <img src="image/GKSHH2-banner.png" alt
+                        class="banner-img w100">
+                </div>
+                <div class="swiper-slide banner2">
+                    <img src="image/GKSHH2-banner.png" alt
+                        class="banner-img w100">
+                </div>
+                <div class="swiper-slide banner3">
+                    <img src="image/GKSHH2-banner.png" alt
+                        class="banner-img w100">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation Buttons -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- Add Custom Dot Control Container -->
+            <div class="swiper-pagination-custom"></div>
+        </div>
         <main>
             <section class="bg4">
                 <div class="home-content wrapper df ptb40 v-center jcsb">
@@ -313,9 +376,9 @@
                 <img src="image/footer-icon.png" class="w100">
             </div>
             <div class="footer-section wrapper fc1 df ptb48">
-                <div class="flx25 plr24">
+                <div class="flx25 plr24 pt16">
                     <h2 class="fs22 fw7 brd-b1 pb16">GURKIRPA SERVICES</h2>
-                    <ul class="pt24">
+                    <ul class="pt16">
                         <li class="fs18 fw4 mtb16">&#x2192 Cleaning
                             Services</li>
                         <li class="fs18 fw4 mtb16">&#x2192 Catering
@@ -349,10 +412,12 @@
                             Gali No-3 || Sector-66 || Noida</span></div>
                     <div class="v-center"><img src="image/svg/phone.svg"
                             alt>
-                        <span class="fs18 fw4 mtb16 ml8">+91-8527534097</span></div>
+                        <span
+                            class="fs18 fw4 mtb16 ml8">+91-8527534097</span></div>
                     <div class="v-center"><img src="image/svg/message.svg"
                             alt>
-                        <span class="fs18 fw4 mtb16 ml8 ">info@gurkirpaservices.com</span></div>
+                        <span
+                            class="fs18 fw4 mtb16 ml8 ">info@gurkirpaservices.com</span></div>
                 </div>
             </div>
         </footer>
@@ -372,5 +437,46 @@
                 </div>
             </div>
         </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+        <script>
+         var swiper = new Swiper(".mySwiper", {
+         navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      var swiper2 = new Swiper(".swiper2", {
+        slidesPerView:
+          window.innerWidth <= 480
+            ? 1
+            : window.innerWidth <= 1025
+            ? 2
+            : window.innerWidth <= 1400
+            ? 3
+            : 4,
+        direction: getDirection(),
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        on: {
+          resize: function () {
+            swiper.changeDirection(getDirection());
+          },
+        },
+      });
+
+      function getDirection() {
+        var windowWidth = window.innerWidth;
+        var direction = window.innerWidth <= 760 ? "horizontal" : "horizontal";
+
+        return direction;
+      }
+    </script>
+        <script src="script.js"></script>
     </body>
 </html>
